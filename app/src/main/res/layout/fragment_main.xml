@@ -9,9 +9,11 @@
     tools:context="com.abhinandankothari.and_p1s1.MainActivityFragment"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/image_main"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
