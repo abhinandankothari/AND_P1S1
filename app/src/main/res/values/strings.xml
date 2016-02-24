@@ -1,4 +1,25 @@
 <resources>
-    <string name="app_name">AND_P1S1</string>
+    <string name="app_name">Popular Movies</string>
     <string name="action_settings">Settings</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="movie_description">Movie Description</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="pref_header_general">Movies Display Settings</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Sort Movies By</string>
+    <string-array name="pref_movie_list_sorting_titles">
+        <item>Popularity</item>
+        <item>High Rating</item>
+    </string-array>
+    <string-array name="pref_movie_list_sorting_values">
+        <item>Popularity</item>
+        <item>High Rating</item>
+    </string-array>
+
 </resources>
